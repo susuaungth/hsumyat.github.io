@@ -916,10 +916,6 @@
   #footer:hover .inner-first-border p {
     transform: scale(1.2);
   }
-  .blocks.first-intro-info .first-border .inner-first-border p {    
-    transform: scale(0.5);
-    transition: transform 4s ease 0s;
-  }
 	.blocks.last-intro-info .first-border .inner-first-border p {
     display: block;
     color: #FFFFFF;
@@ -928,6 +924,8 @@
     padding: 36px 0px;
     text-shadow: 4px 4px 0 rgb(255,88,88);
     z-index: 10;
+    transform: scale(0.5);
+    transition: transform 4s ease 0s;
 	}
   .blocks.last-intro-info .first-border .inner-first-border p {
 
