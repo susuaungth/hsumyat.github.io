@@ -304,14 +304,18 @@
     padding: 70px 0;
   }
   .blocks.first-intro-info .phone-number {
+    font-size: 20px;
     margin: 40px auto;
+  }
+  .blocks.first-intro-info .gmail-address {
+    font-size: 20px;
   }
   .blocks.last-intro-info .phone-number a {
     text-align: left!important;
+    font-size: 30px;
   }
   .phone-number a {
     display: block;
-    font-size: 30px;
     font-weight: 600;
     text-shadow: 3px 3px 0 rgb(255, 88, 88);
     color: #fff;
@@ -322,7 +326,6 @@
   }
   .gmail-address a {
     display: block;
-    font-size: 30px;
     font-weight: 600;
     text-shadow: 3px 3px 0 rgb(255, 88, 88);
     color: #fff;
