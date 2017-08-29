@@ -236,7 +236,7 @@
     padding: 4px;
     position: absolute;
     right: -22px;
-    top: 5%;
+    top: 7%;
     transform: rotate(180deg);
     width: 3%;
   }
@@ -927,23 +927,23 @@
     height: 98%;
     padding: 2px;
     position: absolute;
-    right: -16px;
-    top: 14px;
+    right: -15px;
+    top: 15px;
     transform: rotate(0deg);
   }
   .blocks.last-intro-info .third-square {
     background-color: #ff5858;
     height: 166%;
-    left: 225px;
+    left: 224px;
     padding: 2px;
     position: absolute;
-    top: 53px;
+    top: 54px;
     transform: rotate(90deg);
   }
   .blocks.last-intro-info .fourth-square {
     background-color: #ff5858;
     bottom: -7px;
-    left: 15px;
+    left: 13px;
     padding: 2px;
     position: absolute;
     transform: rotate(90deg);
