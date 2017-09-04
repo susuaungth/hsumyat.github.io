@@ -126,9 +126,6 @@
     z-index: 10;
     transition-duration: 1s;
   }
-/*  .blocks.first-intro-info .polygon.type-1:hover {
-    transform: scale(1.5);
-  }*/
   .blocks.first-intro-info .about-me {
     text-transform: uppercase;
     margin-top: 90px;
@@ -407,15 +404,6 @@
     height: 8px;
     box-shadow: 4px 4px 0 #FDDF59;
   }
-/*  #first-upper-section:hover .blocks.introduction-info .polygon.type-2 {
-    transform: scale(2);
-  }
-  #first-upper-section:hover .blocks.introduction-info .polygon.type-4 {
-    transform: rotate(180deg);
-  }
-  #first-upper-section:hover .blocks.introduction-info .polygon.type-5 {
-    opacity: 1;
-  }*/
   .blocks.introduction-info .polygon.type-2 {
     background-image: url(../images/s-polygon1.svg);
     background-position: center center;
@@ -479,16 +467,7 @@
     position: relative;
     z-index: 10;
   }
-/*  #first-lower-section:hover .blocks.all-work-info .polygon.type-6 {
-    transform: scale(0.5);
-  }
-  #first-lower-section:hover .blocks.all-work-info .polygon.type-7 {
-    opacity: 0.5;
-  }
-  #footer:hover .blocks.all-work-info .polygon.type-14 {
-    opacity: 1;
-  }*/
-  .blocks.all-work-info .polygon.type-6 {
+ .blocks.all-work-info .polygon.type-6 {
     background-image: url("../images/s-polygon5.svg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -540,11 +519,6 @@
   .blocks.all-work-info .header-text {
     padding-top: 46px;
   }
-  .blocks.all-work-info .development.first {
-    margin-top: 60px;
-    position: relative;
-    z-index: 10;
-  }
   .blocks.all-work-info .development.second
    {
     padding-top: 60px;
@@ -559,7 +533,7 @@
     right: 10px;
     top: 0;
   }
-  .blocks.all-work-info .development.first .mini-red-block {
+  .blocks.all-work-info .mini-red-block {
     background-color: #ff5858;
     box-shadow: 4px 4px 0 #fddf59;
     color: #ffffff;
@@ -568,7 +542,7 @@
     margin-bottom: 25px;
     padding: 8px 5px;
     text-align: center;
-    width: 12%;
+    width: 16%;
   }
   .blocks.all-work-info .development.second .mini-red-block {
     background-color: #ff5858;
@@ -581,20 +555,58 @@
     text-align: center;
     width: 100%;
   }
-  .blocks.all-work-info .development.first .mini-red-block:hover,
-  .blocks.all-work-info .development.second .mini-red-block:hover {
+  .blocks.all-work-info .mini-red-block:hover{
     background-color: #fddf59;
     box-shadow: 4px 4px 0 #ff5858;
     color: #ff5858;
   }
-  .blocks.all-work-info .development.first .development-logo {
+  .blocks.all-work-info .content {
+    min-height: 350px;
+    position: relative;
+    z-index: 13;
+  }
+  .blocks.all-work-info .clearfix::before {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+  .blocks.all-work-info .even .development-logo {
+    right: 0;
+  }
+  .blocks.all-work-info .development-logo {
     background-color: #fef5cc;
-    width: 40%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 44%;
     height: 100%;
     -webkit-box-shadow: 8px 8px 0px rgba(255,204,204,1);
     -moz-box-shadow: 8px 8px 0px rgba(255,204,204,1);
     box-shadow: 8px 8px 0px rgba(255,204,204,1);
-
+  }
+  .blocks.all-work-info .table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .blocks.all-work-info .cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .blocks.all-work-info .image {
+    text-align: center;
+    padding: 30px;
+  }
+  .blocks.all-work-info .image img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
   }
   .blocks.all-work-info .development.second .development-logo {
     background-color: #fef5cc;
@@ -605,21 +617,19 @@
     box-shadow: 8px 8px 0px rgba(255,204,204,1);
     margin-bottom: 10px;
   }
-  .blocks.all-work-info .development.first .development-logo img {
-    display: block;
-    margin: 0 auto;
-    padding: 130px 50px;
+  .blocks.all-work-info .odd .development-about {
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    z-index: 11;
+    width: 60%;
   }
-  .blocks.all-work-info .development.second .development-logo img {
-    display: block;
-    margin: 0 auto;
-    padding: 100px 50px;
-  }
-  .blocks.all-work-info .development.first .development-about {
-    left: 35%;
-    position: absolute;
-    top: 26%;
-    z-index: 10;
+  .blocks.all-work-info .even .development-about {
+    margin-right: auto;
+    margin-left: 0;
+    position: relative;
+    z-index: 11;
+    width: 60%;
   }
   .blocks.all-work-info .development.second .development-about {
     right: 35%;
@@ -635,7 +645,7 @@
     text-align: left;
     text-shadow: 4px 4px 0 rgb(253, 223, 89);
   }
-  .development.second .sub-header {
+  .blocks.all-work-info .even .development-about .sub-header {
     text-align: right;
   }
   .body-text {
@@ -646,6 +656,9 @@
     margin: 20px 0;
     text-align: left;
     text-shadow: 2px 2px 0 rgb(253, 223, 89);
+  }
+  .blocks.all-work-info .even .development-about .body-text {
+    text-align: right;
   }
   .development.second .body-text {
     text-align: right;
