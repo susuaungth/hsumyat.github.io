@@ -230,10 +230,13 @@
 		bottom: 20%;
 		display: none;
 	}
+	.blocks.all-work-info .middle-space.hover {
+		height: 233px!important;
+	}
 	.blocks.all-work-info .polygon.type-14 {
 		right: 31%;
 		background-size: 80px auto;
-		top: -38%;
+		top: -35%;
 	}
 	.blocks.last-intro-info .first-border {
 		width: 300px;
@@ -267,6 +270,7 @@
 	}
 	.blocks.all-work-info .polygon.type-15 {
 		bottom: 17%;
+		display: none;
 	}
 	.blocks.last-intro-info .second-square {
 		top: 12px;
@@ -333,10 +337,79 @@
 	.copy-resume .mini-yellow-block {
 		padding: 10px;
 	}
+	.blocks.all-work-info .odd .mini-red-block {
+		width: 20%;
+	}
+	.blocks.first-intro-info .full-name a,
+	.about-me a,
+	.about-work a,
+	.resume-download a,
+	.phone-number a,
+	.gmail-address a
+	{
+		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.blocks.last-intro-info .first-border {
+		text-shadow: 4px 4px 0 rgb(253, 223, 89);
+	}
+	.blocks.last-intro-info .first-border .inner-first-border p {
+		text-shadow: 4px 4px 0 rgb(255,88,88);
+	}
+	.blocks.first-intro-info .first-border {
+		text-shadow: 6px 6px 0 rgb(255, 88, 88);
+	}
+	.blocks.first-intro-info .first-border .inner-first-border {
+		text-shadow: 6px 6px 0 rgb(255, 255, 255);
+	}
+	.blocks.introduction-info .header-text,
+	.header-text {
+		text-shadow: 6px 6px 0 rgb(253, 223, 89);
+	}
+	.copy-resume {
+		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.blocks.all-work-info .even .mini-red-block {
+		width: 25%;
+		margin-right: 18px;
+	}
 }
 
 /*For Tablet Size*/
 @media (min-width: 800px) and (max-width: 1200px) {
+	.blocks.first-intro-info .full-name a,
+	.about-me a,
+	.about-work a,
+	.resume-download a,
+	.phone-number a,
+	.gmail-address a
+	{
+		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.blocks.last-intro-info .first-border {
+		text-shadow: 4px 4px 0 rgb(253, 223, 89);
+	}
+	.blocks.last-intro-info .first-border .inner-first-border p {
+		text-shadow: 4px 4px 0 rgb(255,88,88);
+	}
+	.blocks.first-intro-info .first-border {
+		text-shadow: 6px 6px 0 rgb(255, 88, 88);
+	}
+	.blocks.first-intro-info .first-border .inner-first-border {
+		text-shadow: 6px 6px 0 rgb(255, 255, 255);
+	}
+	.blocks.introduction-info .header-text,
+	.header-text {
+		text-shadow: 6px 6px 0 rgb(253, 223, 89);
+	}
+	.copy-resume {
+		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.blocks.all-work-info .development-logo {
+		margin-left: 15px;
+	}
+	.blocks.all-work-info .even .development-logo {
+		margin-right: 15px;
+	}
 	.blocks.first-intro-info .first-detail-intro {
 		float: none;
 		width: 100%;
@@ -485,7 +558,7 @@
 	.header-text {
 		font-size: 45px;
 	}
-	.blocks.all-work-info .development.first .mini-red-block {
+	.blocks.all-work-info .mini-red-block {
 		margin-left: 10px;
 	}
 	.sub-header {
@@ -494,13 +567,7 @@
 	.body-text {
 		font-size: 18px;
 	}
-	.blocks.all-work-info .development.first .development-logo {
-		margin-left: 10px;
-	}
-	.blocks.all-work-info .development.second .development-about {
-		right: 38%;
-	}
-		.blocks.last-intro-info .first-border {
+	.blocks.last-intro-info .first-border {
 		width: 300px;
 		font-size: 40px;
 	}
@@ -517,6 +584,7 @@
 	}
 	.copy-resume {
 		font-size: 16px;
+		margin-top: 66px;
 	}
 	.blocks.last-intro-info .border-wrapper {
 		top: -18%;

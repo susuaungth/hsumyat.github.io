@@ -215,7 +215,6 @@
     display: block;
     transform: scale(1);
     transition: transform 4s ease 0s;
-    cursor: pointer;
   }
   .blocks.first-intro-info .first-border .inner-first-border {    
     transform: scale(1);
@@ -533,7 +532,7 @@
     right: 10px;
     top: 0;
   }
-  .blocks.all-work-info .mini-red-block {
+  .blocks.all-work-info .odd .mini-red-block {
     background-color: #ff5858;
     box-shadow: 4px 4px 0 #fddf59;
     color: #ffffff;
@@ -544,22 +543,19 @@
     text-align: center;
     width: 16%;
   }
-  .blocks.all-work-info .development.second .mini-red-block {
+  .blocks.all-work-info .even .mini-red-block {
     background-color: #ff5858;
     box-shadow: 4px 4px 0 #fddf59;
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 25px;
-    padding: 8px 23px;
+    padding: 8px 5px;
     text-align: center;
-    width: 100%;
+    width: 16%;
+    float: right;
   }
-  .blocks.all-work-info .mini-red-block:hover{
-    background-color: #fddf59;
-    box-shadow: 4px 4px 0 #ff5858;
-    color: #ff5858;
-  }
+
   .blocks.all-work-info .content {
     min-height: 350px;
     position: relative;
@@ -574,6 +570,7 @@
   }
   .blocks.all-work-info .even .development-logo {
     right: 0;
+    top: 16%;
   }
   .blocks.all-work-info .development-logo {
     background-color: #fef5cc;
@@ -607,6 +604,9 @@
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
+  }
+  .blocks.all-work-info .dedaa .image img {
+    max-width: 56%;
   }
   .blocks.all-work-info .development.second .development-logo {
     background-color: #fef5cc;
@@ -799,7 +799,7 @@
     padding: 64px 77px;
     position: absolute;
     right: 42%;
-    top: -12%;
+    top: 5%;
     transition-duration: 0.5s;
   }
   .blocks.all-work-info .polygon.type-15 {
@@ -819,7 +819,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 40px auto;
-    bottom: 37%;
+    bottom: 56%;
     left: 17%;
     margin-top: 35px;
     opacity: 0.5;
@@ -883,14 +883,7 @@
     display: block;
     transform: scale(1);
     transition: transform 4s ease 0s;
-    cursor: pointer;
   }
-/*  #footer:hover .first-border p {
-    transform: scale(0.7);
-  }
-  #footer:hover .inner-first-border p {
-    transform: scale(1.2);
-  }*/
   .blocks.last-intro-info .first-border .inner-first-border p {
     display: block;
     color: #FFFFFF;
