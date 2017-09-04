@@ -179,6 +179,10 @@
 	.blocks.all-work-info .image {
 		padding: 80px 20px;
 	}
+	.blocks.all-work-info .ych .image,
+	.blocks.all-work-info .dedaa .image {
+		padding: 24px 20px;
+	}
 	.blocks.all-work-info .odd .development-about {
 		margin-left: 0px;
 		width: 100%;
