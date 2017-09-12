@@ -12,6 +12,9 @@
 		text-align: center;
 		font-size: 30px;
 	}
+	.blocks.all-work-info .dedaa .image img {
+    max-width: 44%;
+	}
 	.blocks.first-intro-info .icon-code,
 	.blocks.first-intro-info .icon-html {
 		top: 0%;
@@ -28,10 +31,12 @@
 	.blocks.first-intro-info .about-me {
 		margin-top: 40px;
 		text-align: left;
+		width: 14%;
 	}
 	.blocks.first-intro-info .about-work {
 		margin: 28px 0px;
 		text-align: left;
+		width: 14%;
 	}
 	.blocks.first-intro-info .polygon.type-1 {
 		right: 0;		
@@ -55,9 +60,10 @@
 		margin-left: 14px;
 	}
 	.blocks.first-intro-info .polygon.type-1 {
-		right: -60%;
-		top: 0%;
-		background-size: 58px auto;
+    top: 0%;
+    background-size: 58px auto;
+    width: 30%;
+    left: 70%;
 	}
 	.blocks.first-intro-info .first-border {
 		font-size: 36px;		
@@ -92,7 +98,6 @@
 	.blocks.last-intro-info .instagram-link
 	{
 		width: 23%;
-		float: left;
 		display: table-cell;
 		vertical-align: middle;
 		margin: 18px auto;
@@ -102,6 +107,7 @@
 	.blocks.first-intro-info .gmail-address {
 		margin: 28px auto;
 		font-size: 18px;
+		text-align: left;
 	}
 	.blocks.first-intro-info .first-square {
     right: -15px;
@@ -257,75 +263,80 @@
 		font-size: 16px;
 	}
 	.blocks.last-intro-info .border-wrapper {
-		top: -18%;
-		left: 2%;
+    top: -19%;
+    left: 26%;
 	}
 	.blocks.last-intro-info .icon-html {
 		top: 31%;
 		display: none;
 	}
-	.blocks.last-intro-info .first-square {
-		right: -9px;
-		top: 6%;
-	}
 	.blocks.all-work-info .polygon.type-15 {
 		bottom: 17%;
 		display: none;
 	}
+	.blocks.last-intro-info .first-square {
+    right: -12px;
+    top: 5%;
+    width: 4%;
+	}
 	.blocks.last-intro-info .second-square {
-		top: 12px;
-		right: -12px;
+		top: 11px;
+    right: -13px;
 	}
 	.blocks.last-intro-info .third-square {
-		height: 142%;
-		left: 162px;
-		top: 69px;
+    height: 142%;
+    left: 163px;
+    top: 69px;
 	}
 	.blocks.last-intro-info .fourth-square {
-		bottom: -7px;
-		left: 13px;
+    bottom: -7px;
+    left: 13px;
 	}
 	.blocks.last-intro-info .title {
-		font-size: 26px;
-		margin-top: 20px;
-		text-align: center;
-		margin-bottom: 22px;
+		display: none;
 	}
 	.blocks.last-intro-info .intro-float .down-arrow,
 	.blocks.last-intro-info .message-float .down-arrow {
-		display: table;
-		margin: 0 auto;
-		width: 100%;
-		background-position: center center;
+		display: none;
 	}
 	.blocks.last-intro-info .intro-float {
 		margin-left: 10px;
 		float: none;
 		width: 100%;
+		margin-top: 160px;
 	}
 	.blocks.last-intro-info .message-float {
 		margin-right: 10px;
 		margin-top: 39px;
 	}
-	.blocks.last-intro-info .phone-number, .blocks.last-intro-info .gmail-address,
-	.blocks.last-intro-info .phone-number a {
+	.blocks.last-intro-info .phone-number, .blocks.last-intro-info .gmail-address
+	 {
 		font-size: 16px;
 		text-align: center!important;
 		padding: 0;
 	}
+	.blocks.last-intro-info .phone-number a {
+		font-size: 20px;
+		text-align: center!important;
+		padding: 20px 0px;
+	}
 	.blocks.last-intro-info .message-float {
 		float: none;
 		width: 100%;
+		margin-top: 0px;
 	}
 	.blocks.last-intro-info .social-link-wrapper {
 		position: static;
 		display: table;
 		table-layout: fixed;
 		overflow: hidden;
-		width: 100%;
+		width: 44%;
+		margin: 0 auto;
+		padding: 49px 0px;
 	}
 	.blocks.last-intro-info .footer-polygon {
-    display: none;
+    position: static;
+    background-size: 34px auto; 
 	}
 	.blocks.last-intro-info .icon-code {
 		left: 3%;
@@ -507,7 +518,6 @@
 	.blocks.last-intro-info .instagram-link
 	{
 		width: 23%;
-		float: left;
 		display: table-cell;
 		vertical-align: middle;
 		margin: 18px auto;
@@ -587,7 +597,7 @@
 		margin-top: 66px;
 	}
 	.blocks.last-intro-info .border-wrapper {
-		top: -18%;
+		top: -14%;
 		left: 36%;
 	}
 	.blocks.last-intro-info .icon-html {
@@ -596,25 +606,26 @@
 	.blocks.all-work-info .polygon.type-14 {
 		background-size: 96px auto;
 	}
-	.blocks.last-intro-info .first-square {
-		right: -9px;
-		top: 6%;
-	}
 	.blocks.all-work-info .polygon.type-15 {
 		bottom: 17%;
 	}
+	.blocks.last-intro-info .first-square {
+    right: -12px;
+    top: 5%;
+    width: 4%;
+	}
 	.blocks.last-intro-info .second-square {
-		top: 12px;
-		right: -12px;
+		top: 11px;
+    right: -13px;
 	}
 	.blocks.last-intro-info .third-square {
-		height: 142%;
-		left: 162px;
-		top: 69px;
+    height: 142%;
+    left: 163px;
+    top: 69px;
 	}
 	.blocks.last-intro-info .fourth-square {
-		bottom: -7px;
-		left: 13px;
+    bottom: -7px;
+    left: 13px;
 	}
 	.blocks.last-intro-info .title {
 		font-size: 26px;
@@ -633,6 +644,7 @@
 		margin-left: 10px;
 		float: none;
 		width: 100%;
+		margin-top: 150px;
 	}
 	.blocks.last-intro-info .message-float {
 		margin-right: 10px;
@@ -653,10 +665,13 @@
 		display: table;
 		table-layout: fixed;
 		overflow: hidden;
-		width: 100%;
+		width: 50%;
+		margin: 0 auto;
+		padding: 45px 0px;
 	}
 	.blocks.last-intro-info .footer-polygon {
-    display: none;
+    position: static;
+    background-size: 45px auto;
 	}
 	.blocks.last-intro-info .icon-code {
 		left: 3%;
