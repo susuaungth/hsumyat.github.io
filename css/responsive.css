@@ -101,7 +101,6 @@
 		display: table-cell;
 		vertical-align: middle;
 		margin: 18px auto;
-		padding-left: 20px;
 	}
 	.blocks.first-intro-info .phone-number,
 	.blocks.first-intro-info .gmail-address {
@@ -256,7 +255,7 @@
     margin: 0 auto;
     display: table;
     padding: 20px 0;
-    width: 44%;
+    width: 54%;
     margin-top: 30px;
 	}
 	.copy-resume {
@@ -330,7 +329,7 @@
 		display: table;
 		table-layout: fixed;
 		overflow: hidden;
-		width: 44%;
+		width: 66%;
 		margin: 0 auto;
 		padding: 49px 0px;
 	}
@@ -342,14 +341,11 @@
 		left: 3%;
 		display: none;
 	}
-	.blocks.all-work-info .polygon.type-13 {
-		bottom: 10%;
-	}
 	.copy-resume .mini-yellow-block {
 		padding: 10px;
 	}
 	.blocks.all-work-info .odd .mini-red-block {
-		width: 20%;
+		width: 34%;
 	}
 	.blocks.first-intro-info .full-name a,
 	.about-me a,
@@ -380,7 +376,7 @@
 		text-shadow: 2px 2px 0 rgb(255, 88, 88);
 	}
 	.blocks.all-work-info .even .mini-red-block {
-		width: 25%;
+		width: 39%;
 		margin-right: 18px;
 	}
 }
