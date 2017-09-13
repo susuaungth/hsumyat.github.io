@@ -93,7 +93,7 @@
   }
   .blocks.first-intro-info .blocks-content,
   .blocks.last-intro-info .blocks-content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
   }
@@ -376,7 +376,7 @@
     z-index: 9;
   }
   .blocks.introduction-info .blocks-content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
     z-index: 10;
@@ -494,7 +494,7 @@
     margin-top: 100px;
   }
   .blocks.all-work-info .blocks-content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
     z-index: 10;
@@ -892,7 +892,7 @@
      display: block;
   }
   .blocks.last-intro-info .border-wrapper{
-    left: 32%;
+    left: 36%;
     position: absolute;
     top: -27%;
     z-index: 10;
