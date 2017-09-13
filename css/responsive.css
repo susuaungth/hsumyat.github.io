@@ -1,5 +1,10 @@
 /*For mobile size*/
-
+@media (min-width: 200px) and (max-width: 400px) {
+	.foot-int .wrapper .red,
+	.foot-int .wrapper .white {
+		font-size: 30px;
+	}
+}
 @media only screen and (max-width: 800px) {
 	.blocks.first-intro-info .first-detail-intro {
 		float: none;
@@ -12,6 +17,25 @@
 		text-align: center;
 		font-size: 30px;
 	}
+	.blocks.first-intro-info .mobile-social-link-wrapper {
+		width: 50%;
+    overflow: hidden;
+    display: table;
+    margin: 0 auto;
+    table-layout: fixed;
+	}
+	.work.odd .work-place {
+		font-size: 14px;
+		margin-left: 5px;
+	}
+	.work.even .work-place {
+		margin-bottom: 20px;
+		font-size: 14px;
+		margin-right: 5px;
+	}
+	.work-place a {
+		font-size: 14px;
+	}
 	.blocks.first-intro-info .icon-code,
 	.blocks.first-intro-info .icon-html {
 		top: 0%;
@@ -23,21 +47,20 @@
 	.blocks.first-intro-info .second-detail-intro {
 		float: none;
 		width: 100%;
-		margin-left: 23px;
 	}
 	.blocks.first-intro-info .about-me {
 		margin-top: 40px;
-		text-align: left;
+		text-align: center;
 	}
 	.blocks.first-intro-info .about-work {
 		margin: 28px 0px;
-		text-align: left;
+		text-align: center;
 	}
 	.blocks.first-intro-info .polygon.type-1 {
 		right: 0;		
 	}
 	.blocks.first-intro-info .resume-download {
-		text-align: left;
+		text-align: center;
 		margin-top: 11px;
 	}
 	.blocks.first-intro-info .detail-contact {
@@ -45,7 +68,7 @@
 	}
 	.blocks.first-intro-info .phone-number a,
 	.blocks.first-intro-info .gmail-address a {
-		text-align: left;
+		text-align: center;
 	}
 	.blocks.last-intro-info .gmail-address a {
 		text-align: center;
@@ -53,9 +76,10 @@
 	.blocks.first-intro-info .border-wrapper {
 		top: 100%;
 		margin-left: 14px;
+		display: none;
 	}
 	.blocks.first-intro-info .polygon.type-1 {
-		right: -60%;
+		left: 58%;
 		top: 0%;
 		background-size: 58px auto;
 	}
@@ -66,21 +90,10 @@
 	.blocks.first-intro-info .first-border .inner-first-border {
 		font-size: 30px;
 		padding: 30px 0 30px;
+		display: none;
 	}
 	.blocks.first-intro-info .first-border {
 		width: 100%;
-	}
-	.blocks.first-intro-info {
-		height: 660px;
-	}
-	.blocks.first-intro-info .social-link-wrapper {
-    left: 0;
-    top: 109%;
-    width: 100%;
-    overflow: hidden;
-    display: table;
-    margin: 0 auto;
-    table-layout: fixed;
 	}
 	.blocks.first-intro-info .github-link,
 	.blocks.first-intro-info .facebook-link,
@@ -157,7 +170,8 @@
 		padding: 0;
 	}
 	.blocks.all-work-info .polygon.type-8 {
-		top: -28%;
+		top: -35%;
+		margin-top: 0px;
 	}
 	.blocks.all-work-info .mini-red-block {
 		width: 35%;
@@ -193,9 +207,24 @@
 	.blocks.all-work-info .body-text {
 		text-align: center;
 	}
+	.foot-int {
+		top: -77px;
+	}
+	.foot-int .wrapper .red {
+		font-size: 32px;
+		text-shadow: 4px 4px 0 rgb(253, 223, 89);
+	}
+	.foot-int .wrapper .white {
+		font-size: 32px;
+		text-shadow: 4px 4px 0 rgb(255, 88, 88);
+	}
+	.foot-int .wrapper {
+		padding: 12px 31px;
+	}
 	.blocks.all-work-info .even .development-about {
 		margin-right: 0px;
 		width: 100%;
+		padding-top: 38px !important;
 	}
 	.sub-header {
 		font-size: 20px;
@@ -287,9 +316,9 @@
 	}
 	.blocks.last-intro-info .title {
 		font-size: 26px;
-		margin-top: 20px;
+		margin-top: 0px;
 		text-align: center;
-		margin-bottom: 22px;
+		margin-bottom: 0px;
 	}
 	.blocks.last-intro-info .intro-float .down-arrow,
 	.blocks.last-intro-info .message-float .down-arrow {
@@ -302,10 +331,11 @@
 		margin-left: 10px;
 		float: none;
 		width: 100%;
+		margin-top: 100px;
 	}
 	.blocks.last-intro-info .message-float {
 		margin-right: 10px;
-		margin-top: 39px;
+		margin-top: 25px;
 	}
 	.blocks.last-intro-info .phone-number, .blocks.last-intro-info .gmail-address,
 	.blocks.last-intro-info .phone-number a {
@@ -322,7 +352,8 @@
 		display: table;
 		table-layout: fixed;
 		overflow: hidden;
-		width: 100%;
+		width: 60%;
+		margin: 0 auto;
 	}
 	.blocks.last-intro-info .footer-polygon {
     display: none;
@@ -372,6 +403,16 @@
 		width: 25%;
 		margin-right: 18px;
 	}
+	.github-link a,
+	.instagram-link a,
+	.twitter-link a {
+		background-position: center center;
+		background-size: 25px auto;
+	}
+	.facebook-link a {
+		background-size: 18px auto;
+		background-position: center center;
+	}
 }
 
 /*For Tablet Size*/
@@ -384,6 +425,13 @@
 	.gmail-address a
 	{
 		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.foot-int .wrapper .red,
+	.foot-int .wrapper .white {
+		font-size: 45px;
+	}
+	.blocks.last-intro-info .intro-float {
+		margin-top: 176px;
 	}
 	.blocks.last-intro-info .first-border {
 		text-shadow: 4px 4px 0 rgb(253, 223, 89);
@@ -432,7 +480,6 @@
 	.blocks.first-intro-info .second-detail-intro {
 		float: none;
 		width: 100%;
-		margin-left: 23px;
 		display: table;
 		margin: 0 auto;
 	}
@@ -620,7 +667,7 @@
 		font-size: 26px;
 		margin-top: 20px;
 		text-align: center;
-		margin-bottom: 22px;
+		margin-bottom: 0px;
 	}
 	.blocks.last-intro-info .intro-float .down-arrow,
 	.blocks.last-intro-info .message-float .down-arrow {
@@ -628,6 +675,10 @@
 		margin: 0 auto;
 		width: 100%;
 		background-position: center center;
+	}
+	.blocks.last-intro-info .social-link-wrapper {
+		width: 60%;
+		margin: 0 auto;
 	}
 	.blocks.last-intro-info .intro-float {
 		margin-left: 10px;
@@ -653,7 +704,8 @@
 		display: table;
 		table-layout: fixed;
 		overflow: hidden;
-		width: 100%;
+		width: 60%;
+		margin: 0 auto;
 	}
 	.blocks.last-intro-info .footer-polygon {
     display: none;

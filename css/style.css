@@ -93,7 +93,7 @@
   }
   .blocks.first-intro-info .blocks-content,
   .blocks.last-intro-info .blocks-content {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
   }
@@ -270,6 +270,39 @@
     width: 20px;
     z-index: 10;
   }
+  .blocks.first-intro-info .mobile-social-link-wrapper {
+    padding: 5px;
+    position: static;
+    display: none;
+    width: 20px;
+    z-index: 10;
+  }
+  .work.odd .work-place {
+    color: #ff5858;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: left;
+    text-shadow: 2px 2px 0 rgb(253, 223, 89);
+    opacity: 0.6;
+  }
+  .work.even .work-place {
+    text-align: right;
+    color: #ff5858;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 0 rgb(253, 223, 89);
+    clear: both;
+    opacity: 0.6;
+  }
+  .work-place a {
+    color: #ff5858;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 2px 2px 0 rgb(253, 223, 89);
+  }
   .blocks.first-intro-info .icon-html {
     background-image: url("../images/html.svg");
     background-position: center center;
@@ -343,7 +376,7 @@
     z-index: 9;
   }
   .blocks.introduction-info .blocks-content {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     z-index: 10;
@@ -461,7 +494,7 @@
     margin-top: 100px;
   }
   .blocks.all-work-info .blocks-content {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     z-index: 10;
@@ -1084,10 +1117,64 @@
     display: block;
     padding: 20px;
   }
-/*  .ht-hover-icon {
-    transform: rotate(200deg);
+  .foot-int {
+    left: 50%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: -120px;
+    transform: translateX(-50%);
+    z-index: 10;
   }
-  .code-hover-icon {
-    transform: rotate(-200deg);
-  }*/
+  .foot-int .wrapper {
+    border: 4px solid #FF5858;
+    padding: 40px 70px;
+  }
+  .foot-int .wrapper .red {
+    color: #FF5858;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    text-shadow: 8px 8px 0 rgb(253, 223, 89);
+    z-index: 10;
+    padding-bottom: 20px;
+  }
+  .foot-int .wrapper .white {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    text-shadow: 8px 8px 0 rgb(255, 88, 88);
+    z-index: 10;
+    padding-top: 20px;
+  }
+  .foot-int .bars {
+    background-color: #FF5858;
+    position: absolute;
+    z-index: 10;
+  }
+  .foot-int .bars.top {
+    height: 4px;
+    right: 0;
+    top: 8%;
+    width: 20px;
+  }
+  .foot-int .bars.bottom {
+    bottom: 0;
+    height: 4px;
+    right: 0;
+    width: 96%;
+  }
+  .foot-int .bars.left {
+    bottom: 0;
+    height: 20px;
+    left: 4%;
+    width: 4px;
+  }
+  .foot-int .bars.right {
+    bottom: 0;
+    height: 92%;
+    right: 0;
+    width: 4px;
+  }
 
