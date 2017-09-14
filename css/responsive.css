@@ -494,7 +494,6 @@
 	}
 	.blocks.first-intro-info .second-detail-intro {
 		float: none;
-		width: 100%;
 		display: table;
 		margin: 0 auto;
 	}
@@ -529,9 +528,9 @@
 		left: 36%;
 	}
 	.blocks.first-intro-info .polygon.type-1 {
-		right: -60%;
-		top: -12%;
-		background-size: 58px auto;
+    right: -126%;
+    top: 30%;
+    background-size: 58px auto;
 	}
 	.blocks.introduction-info .aboutme-detail {
 		padding: 43px 0;
