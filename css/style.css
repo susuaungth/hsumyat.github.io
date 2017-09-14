@@ -302,6 +302,7 @@
     margin: 20px 0;
     text-align: center;
     text-shadow: 2px 2px 0 rgb(253, 223, 89);
+    text-decoration: underline;
   }
   .blocks.first-intro-info .icon-html {
     background-image: url("../images/html.svg");
