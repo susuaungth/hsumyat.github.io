@@ -270,7 +270,7 @@
     width: 20px;
     z-index: 10;
   }
-  .blocks.first-intro-info .mobile-social-link-wrapper {
+  .mobile.social-link-wrapper {
     padding: 5px;
     position: static;
     display: none;
@@ -1054,9 +1054,6 @@
     z-index: 10;
     transition-duration: 1s;
   }
-/*  .blocks.last-intro-info .footer-polygon:hover {
-    transform: scale(1.5);
-  }*/
   .blocks.last-intro-info .social-link-wrapper {
     padding: 5px;
     position: absolute;
@@ -1065,57 +1062,52 @@
     width: 20px;
     z-index: 10;
   }
-  .github-link {
+  .social-link-wrapper .links {
     display: block;
-    margin: 10px auto;
+    margin: 25px auto;
   }
-  .github-link a {
-    background-image: url("../images/github.svg");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 30px auto;
+  .social-link-wrapper .links svg {
     display: block;
-    padding: 20px;
-    fill: #fff;
+    width: 31px;
+    height: auto;
+    margin: 0 auto;
   }
-  .github-link a:hover {
+  .social-link-wrapper .links path {
+    transition: 0.3s ease-in all;
+  }
+  .social-link-wrapper .links .path.white {
+    position: relative;
+    z-index: 10;
+    margin-top: 28px;
+    font-size: 125px;
+    color: #000;
+    font-weight: 700;
+    -webkit-text-shadow: 9px 9px 0 #fff;
+    -moz-text-shadow: 9px 9px 0 #fff;
+    -o-text-shadow: 9px 9px 0 #fff;
+    text-shadow: 9px 9px 0 #fff;
+  }
+  .social-link-wrapper .links .path.red {
+    position: relative;
+    z-index: 10;
+    margin-top: 28px;
+    font-size: 125px;
+    color: #000;
+    font-weight: 700;
+    -webkit-text-shadow: 9px 9px 0 #fff;
+    -moz-text-shadow: 9px 9px 0 #fff;
+    -o-text-shadow: 9px 9px 0 #fff;
+    text-shadow: 9px 9px 0 #fff;
+  }
+  .social-link-wrapper .links:hover .path.white {
+    fill: #FFFFFF;
+  }
+  .social-link-wrapper .links:hover .path.red {
     fill: #FF5858;
   }
   .facebook-link {
     display: block;
     margin: 18px auto;
-  }
-  .facebook-link a {
-    background-image: url("../images/facebook.svg");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 21px auto;
-    display: block;
-    padding: 20px;
-  }
-  .twitter-link {
-    display: block;
-    margin: 18px auto;
-  }
-  .twitter-link a {
-    background-image: url("../images/twitter.svg");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 30px auto;
-    display: block;
-    padding: 20px;  
-  }
-  .instagram-link {
-    display: block;
-    margin: 18px auto;
-  }
-  .instagram-link a {
-    background-image: url("../images/instagram.svg");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 30px auto;
-    display: block;
-    padding: 20px;
   }
   .foot-int {
     left: 50%;

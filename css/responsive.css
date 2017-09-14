@@ -1,8 +1,8 @@
 /*For mobile size*/
-@media (min-width: 200px) and (max-width: 400px) {
+@media (min-width: 350px) and (max-width: 480px) {
 	.foot-int .wrapper .red,
 	.foot-int .wrapper .white {
-		font-size: 30px;
+		font-size: 25px;
 	}
 }
 @media only screen and (max-width: 800px) {
@@ -17,7 +17,18 @@
 		text-align: center;
 		font-size: 30px;
 	}
-	.blocks.first-intro-info .mobile-social-link-wrapper {
+	.blocks.first-intro-info .social-link-wrapper {
+		position: static;
+	}
+	.mobile.social-link-wrapper .links svg ,
+	.blocks.last-intro-info .social-link-wrapper .links svg {
+		width: 25px;
+	}
+	.mobile.social-link-wrapper .facebook-link.links svg,
+	.blocks.last-intro-info .social-link-wrapper .facebook-link.links svg {
+		width: 18px!important;
+	}
+	.blocks.first-intro-info .mobile.social-link-wrapper {
 		width: 50%;
     overflow: hidden;
     display: table;
@@ -211,11 +222,11 @@
 		top: -77px;
 	}
 	.foot-int .wrapper .red {
-		font-size: 32px;
+		font-size: 30px;
 		text-shadow: 4px 4px 0 rgb(253, 223, 89);
 	}
 	.foot-int .wrapper .white {
-		font-size: 32px;
+		font-size: 30px;
 		text-shadow: 4px 4px 0 rgb(255, 88, 88);
 	}
 	.foot-int .wrapper {
@@ -425,6 +436,9 @@
 	.gmail-address a
 	{
 		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.mobile.social-link-wrapper {
+		display: none !important;
 	}
 	.foot-int .wrapper .red,
 	.foot-int .wrapper .white {
