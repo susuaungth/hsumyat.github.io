@@ -219,18 +219,18 @@
 		text-align: center;
 	}
 	.foot-int {
-		top: -77px;
+		top: -65px;
 	}
 	.foot-int .wrapper .red {
-		font-size: 30px;
+		font-size: 25px;
 		text-shadow: 4px 4px 0 rgb(253, 223, 89);
 	}
 	.foot-int .wrapper .white {
-		font-size: 30px;
+		font-size: 25px;
 		text-shadow: 4px 4px 0 rgb(255, 88, 88);
 	}
 	.foot-int .wrapper {
-		padding: 12px 31px;
+		padding: 12px 14px;
 	}
 	.blocks.all-work-info .even .development-about {
 		margin-right: 0px;
@@ -337,9 +337,9 @@
 		margin: 0 auto;
 		width: 100%;
 		background-position: center center;
+		background-size: 20px auto;
 	}
 	.blocks.last-intro-info .intro-float {
-		margin-left: 10px;
 		float: none;
 		width: 100%;
 		margin-top: 100px;
@@ -353,6 +353,7 @@
 		font-size: 16px;
 		text-align: center!important;
 		padding: 0;
+		margin: 0;
 	}
 	.blocks.last-intro-info .message-float {
 		float: none;
