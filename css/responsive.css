@@ -10,6 +10,9 @@
 		float: none;
 		width: 100%;
 	}
+	.blocks.all-work-info .middle-space {
+		margin: 20px auto;
+	}
 	.blocks.first-intro-info .full-name {
 		width: 100%;
 	}
@@ -117,10 +120,8 @@
 	{
 		width: 23%;
 		float: left;
-		display: table-cell;
-		vertical-align: middle;
+		display: inline-block;
 		margin: 18px auto;
-		padding-left: 20px;
 	}
 	.blocks.first-intro-info .phone-number,
 	.blocks.first-intro-info .gmail-address {
@@ -181,7 +182,7 @@
 		padding: 0;
 	}
 	.blocks.all-work-info .polygon.type-8 {
-		top: -35%;
+		top: -39%;
 		margin-top: 0px;
 	}
 	.blocks.all-work-info .mini-red-block {
@@ -219,18 +220,22 @@
 		text-align: center;
 	}
 	.foot-int {
-		top: -65px;
+		top: -56px;
 	}
 	.foot-int .wrapper .red {
-		font-size: 21px;
+		font-size: 23px;
 		text-shadow: 4px 4px 0 rgb(253, 223, 89);
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	.foot-int .wrapper .white {
-		font-size: 21px;
+		font-size: 23px;
 		text-shadow: 4px 4px 0 rgb(255, 88, 88);
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 	.foot-int .wrapper {
-		padding: 12px 14px;
+		padding: 4px 38px;
 	}
 	.blocks.all-work-info .even .development-about {
 		margin-right: 0px;
@@ -326,31 +331,33 @@
 		left: 13px;
 	}
 	.blocks.last-intro-info .title {
-		font-size: 26px;
-		margin-top: 0px;
-		text-align: center;
-		margin-bottom: 0px;
+		display: none;
 	}
 	.blocks.last-intro-info .intro-float .down-arrow,
 	.blocks.last-intro-info .message-float .down-arrow {
-		display: table;
-		margin: 0 auto;
-		width: 100%;
-		background-position: center center;
-		background-size: 20px auto;
+		display: none;
 	}
 	.blocks.last-intro-info .intro-float {
 		float: none;
 		width: 100%;
-		margin-top: 100px;
+		margin-top: 125px;
 	}
 	.blocks.last-intro-info .message-float {
 		margin-right: 10px;
-		margin-top: 25px;
+		margin-top: 0px;
 	}
-	.blocks.last-intro-info .phone-number, .blocks.last-intro-info .gmail-address,
+	.blocks.last-intro-info .phone-number {
+		font-size: 20px;
+		padding: 5px 0px;
+	}
 	.blocks.last-intro-info .phone-number a {
-		font-size: 16px;
+		font-size: 20px;
+		text-align: center !important;
+		margin: 0;
+	}
+	.blocks.last-intro-info .gmail-address
+	{
+		font-size: 14px;
 		text-align: center!important;
 		padding: 0;
 		margin: 0;
@@ -361,27 +368,30 @@
 	}
 	.blocks.last-intro-info .social-link-wrapper {
 		position: static;
-		display: table;
-		table-layout: fixed;
+		display: block;
 		overflow: hidden;
-		width: 60%;
+		width: 36%;
 		margin: 0 auto;
 	}
 	.blocks.last-intro-info .footer-polygon {
-    display: none;
-	}
+		position: static;
+		background-size: 30px auto;
+		padding: 45px 41px;
+   }
 	.blocks.last-intro-info .icon-code {
 		left: 3%;
 		display: none;
 	}
 	.blocks.all-work-info .polygon.type-13 {
-		bottom: 10%;
+		bottom: 17%;
 	}
 	.copy-resume .mini-yellow-block {
 		padding: 10px;
 	}
 	.blocks.all-work-info .odd .mini-red-block {
 		width: 30%;
+		display: table;
+		margin: 0 auto;
 	}
 	.blocks.first-intro-info .full-name a,
 	.about-me a,
@@ -413,7 +423,9 @@
 	}
 	.blocks.all-work-info .even .mini-red-block {
 		width: 35%;
-		margin-right: 18px;
+		display: table;
+		margin: 20px auto;
+		float: none;
 	}
 	.github-link a,
 	.instagram-link a,

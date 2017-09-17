@@ -86,6 +86,17 @@
     position: relative;
     z-index: 10;
   }
+  .blocks.last-intro-info .footer-wave-image {
+    position: absolute;
+    bottom: 0;
+    background-image: url("../images/ft-wave.png");
+    background-size: 50px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 10;
+    padding-top: 10px;
+    width: 100%;
+  }
   .blocks.first-intro-info {
     background-color: #FDDF59;
     width: 100%;
