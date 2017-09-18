@@ -1,8 +1,50 @@
 /*For mobile size*/
-@media (min-width: 350px) and (max-width: 480px) {
-	.foot-int .wrapper .red,
-	.foot-int .wrapper .white {
-		font-size: 25px;
+@media (min-width: 350px) and (max-width: 400px) {
+	.foot-int {
+		width: 75% !important;
+	}
+}
+@media(min-width: 370px) and (max-width: 400px) {
+	.foot-int {
+		width: 58% !important;
+	}
+}
+@media(min-width: 400px) and (max-width: 450px) {
+	.foot-int {
+		width: 60% !important;
+	}
+}
+@media(min-width: 450px) and (max-width: 480px) {
+	.foot-int {
+		width: 50% !important;
+	}
+}
+@media(min-width: 480px) and (max-width: 500px) {
+	.foot-int {
+		width: 48% !important;
+	}
+}
+@media(min-width: 500px) and (max-width: 600px) {
+	.foot-int {
+		width: 48% !important;
+	}
+}
+@media(min-width: 600px) and (max-width: 700px) {
+	.foot-int {
+		width: 35% !important;
+	}
+}
+@media(min-width: 700px) and (max-width: 799px) {
+	.foot-int {
+		width: 35% !important;
+	}
+}
+@media(min-width: 800px) and (max-width: 805px) {
+	.foot-int {
+		width: 35% !important;
+	}
+	.resume-wrapper {
+		margin-top: 0px;
 	}
 }
 @media only screen and (max-width: 800px) {
@@ -113,15 +155,21 @@
 	.blocks.first-intro-info .facebook-link,
 	.blocks.first-intro-info .twitter-link,
 	.blocks.first-intro-info .instagram-link,
-	.blocks.last-intro-info .github-link,
-	.blocks.last-intro-info .facebook-link,
-	.blocks.last-intro-info .twitter-link,
-	.blocks.last-intro-info .instagram-link
 	{
 		width: 23%;
 		float: left;
 		display: inline-block;
 		margin: 18px auto;
+	}
+	.blocks.last-intro-info .github-link,
+	.blocks.last-intro-info .facebook-link,
+	.blocks.last-intro-info .twitter-link,
+	.blocks.last-intro-info .instagram-link
+	{
+		width: 24%;
+    display: table-cell;
+    margin: 18px auto;
+    vertical-align: middle;
 	}
 	.blocks.first-intro-info .phone-number,
 	.blocks.first-intro-info .gmail-address {
@@ -221,22 +269,48 @@
 	}
 	.foot-int {
 		top: -56px;
+		width: 70%;
+		padding-bottom: 15px;
+		padding-right: 15px;
 	}
 	.foot-int .wrapper .red {
-		font-size: 23px;
+		font-size: 25px;
 		text-shadow: 4px 4px 0 rgb(253, 223, 89);
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
 	.foot-int .wrapper .white {
-		font-size: 23px;
+		font-size: 25px;
 		text-shadow: 4px 4px 0 rgb(255, 88, 88);
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
-	.foot-int .wrapper {
-		padding: 4px 38px;
+	.blocks.first-intro-info .social-link-wrapper .links {
+		display: table-cell;
+		vertical-align: middle;
 	}
+	.blocks.first-intro-info .mobile.social-link-wrapper {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.foot-int .bars.top {
+		height: 3px;
+		width: 18px;
+	}
+	.foot-int .bars.bottom {
+		height: 3px;
+	}
+	.foot-int .bars.left {
+		width: 3px;
+		height: 18px;
+	}
+	.foot-int .bars.right {
+		width: 3px;
+	}
+	.foot-int .wrapper {
+    border: 3px solid #FF5858;
+    padding: 4px 30px;
+  }
 	.blocks.all-work-info .even .development-about {
 		margin-right: 0px;
 		width: 100%;
@@ -367,16 +441,17 @@
 		width: 100%;
 	}
 	.blocks.last-intro-info .social-link-wrapper {
-		position: static;
-		display: block;
-		overflow: hidden;
-		width: 36%;
-		margin: 0 auto;
+    position: static;
+    display: table;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+    table-layout: fixed;
 	}
 	.blocks.last-intro-info .footer-polygon {
 		position: static;
-		background-size: 30px auto;
-		padding: 45px 41px;
+		background-size: 20px auto;
+		padding: 53px 55px;
    }
 	.blocks.last-intro-info .icon-code {
 		left: 3%;
