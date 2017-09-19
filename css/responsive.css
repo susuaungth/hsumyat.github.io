@@ -1,52 +1,4 @@
 /*For mobile size*/
-@media (min-width: 350px) and (max-width: 400px) {
-	.foot-int {
-		width: 75% !important;
-	}
-}
-@media(min-width: 370px) and (max-width: 400px) {
-	.foot-int {
-		width: 58% !important;
-	}
-}
-@media(min-width: 400px) and (max-width: 450px) {
-	.foot-int {
-		width: 60% !important;
-	}
-}
-@media(min-width: 450px) and (max-width: 480px) {
-	.foot-int {
-		width: 50% !important;
-	}
-}
-@media(min-width: 480px) and (max-width: 500px) {
-	.foot-int {
-		width: 48% !important;
-	}
-}
-@media(min-width: 500px) and (max-width: 600px) {
-	.foot-int {
-		width: 48% !important;
-	}
-}
-@media(min-width: 600px) and (max-width: 700px) {
-	.foot-int {
-		width: 35% !important;
-	}
-}
-@media(min-width: 700px) and (max-width: 799px) {
-	.foot-int {
-		width: 35% !important;
-	}
-}
-@media(min-width: 800px) and (max-width: 805px) {
-	.foot-int {
-		width: 35% !important;
-	}
-	.resume-wrapper {
-		margin-top: 0px;
-	}
-}
 @media only screen and (max-width: 800px) {
 	.blocks.first-intro-info .first-detail-intro {
 		float: none;
@@ -82,12 +34,12 @@
 	}
 	.work.odd .work-place {
 		font-size: 14px;
-		margin-left: 5px;
+		text-align: center;
 	}
 	.work.even .work-place {
 		margin-bottom: 20px;
 		font-size: 14px;
-		margin-right: 5px;
+		text-align: center;
 	}
 	.work-place a {
 		font-size: 14px;
@@ -267,11 +219,20 @@
 	.blocks.all-work-info .body-text {
 		text-align: center;
 	}
+	.foot-int-wrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    padding-left: 30px;
+    padding-right: 30px;
+	}
 	.foot-int {
-		top: -56px;
-		width: 70%;
-		padding-bottom: 15px;
-		padding-right: 15px;
+    top: -56px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 200px;
+    max-width: 200px;
 	}
 	.foot-int .wrapper .red {
 		font-size: 25px;
@@ -309,7 +270,11 @@
 	}
 	.foot-int .wrapper {
     border: 3px solid #FF5858;
-    padding: 4px 30px;
+    padding: 4px 9px;
+    padding-left: 11px;
+    padding-right: 18px;
+    padding-top: 4px;
+    padding-bottom: 1px;
   }
 	.blocks.all-work-info .even .development-about {
 		margin-right: 0px;
@@ -369,7 +334,7 @@
     margin: 0 auto;
     display: table;
     padding: 20px 0;
-    width: 44%;
+    width: 35%;
     margin-top: 30px;
 	}
 	.copy-resume {
