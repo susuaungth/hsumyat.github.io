@@ -118,10 +118,9 @@
 	.blocks.last-intro-info .twitter-link,
 	.blocks.last-intro-info .instagram-link
 	{
-		width: 24%;
-    display: table-cell;
+    display: inline-flex;
     margin: 18px auto;
-    vertical-align: middle;
+    align-items: center;
 	}
 	.blocks.first-intro-info .phone-number,
 	.blocks.first-intro-info .gmail-address {
@@ -407,16 +406,16 @@
 	}
 	.blocks.last-intro-info .social-link-wrapper {
     position: static;
-    display: table;
+    display: flex;
     overflow: hidden;
     width: 50%;
     margin: 0 auto;
-    table-layout: fixed;
 	}
 	.blocks.last-intro-info .footer-polygon {
 		position: static;
 		background-size: 22px 37px;
 		padding: 53px 55px;
+		opacity: 0.4;
    }
 	.blocks.last-intro-info .icon-code {
 		left: 3%;
