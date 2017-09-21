@@ -23,7 +23,7 @@
 	}
 	.mobile.social-link-wrapper .facebook-link.links svg,
 	.blocks.last-intro-info .social-link-wrapper .facebook-link.links svg {
-		width: 18px!important;
+		width: 16px!important;
 	}
 	.blocks.first-intro-info .mobile.social-link-wrapper {
 		width: 50%;
@@ -121,6 +121,9 @@
     display: inline-flex;
     margin: 18px auto;
     align-items: center;
+    width: auto;
+    height: auto;
+    position: static;
 	}
 	.blocks.first-intro-info .phone-number,
 	.blocks.first-intro-info .gmail-address {
@@ -282,6 +285,7 @@
 	}
 	.sub-header {
 		font-size: 20px;
+		text-shadow: 3px 3px 0 rgb(253, 223, 89);
 	}
 	.body-text {
 		font-size: 15px;
@@ -410,11 +414,13 @@
     overflow: hidden;
     width: 50%;
     margin: 0 auto;
+    flex-direction: row;
+    direction: ltr;
 	}
 	.blocks.last-intro-info .footer-polygon {
 		position: static;
 		background-size: 22px 37px;
-		padding: 53px 55px;
+		padding: 40px 55px;
 		opacity: 0.4;
    }
 	.blocks.last-intro-info .icon-code {
@@ -455,7 +461,7 @@
 	}
 	.blocks.introduction-info .header-text,
 	.header-text {
-		text-shadow: 6px 6px 0 rgb(253, 223, 89);
+		text-shadow: 4px 4px 0 rgb(253, 223, 89);
 	}
 	.copy-resume {
 		text-shadow: 2px 2px 0 rgb(255, 88, 88);
@@ -470,7 +476,7 @@
 	.instagram-link a,
 	.twitter-link a {
 		background-position: center center;
-		background-size: 25px auto;
+		background-size: 20px auto;
 	}
 	.facebook-link a {
 		background-size: 18px auto;
@@ -488,6 +494,9 @@
 	.gmail-address a
 	{
 		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.blocks.last-intro-info .footer-wave-image {
+		display: none;
 	}
 	.mobile.social-link-wrapper {
 		display: none !important;

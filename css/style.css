@@ -407,6 +407,9 @@
     margin: 35px 0;
     text-align: center;
   }
+  .abt-link {
+    transition-duration: 10s;
+  }
   .header-text {
     font-size: 60px;
     font-weight: 700;
