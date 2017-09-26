@@ -408,7 +408,11 @@
     text-align: center;
   }
   .abt-link {
+<<<<<<< HEAD
     transition-duration: 2s ease-in all;
+=======
+    transition-duration: 10s;
+>>>>>>> master
   }
   .header-text {
     font-size: 60px;

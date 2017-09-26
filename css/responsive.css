@@ -4,6 +4,7 @@
 		float: none;
 		width: 100%;
 	}
+<<<<<<< HEAD
 	.blocks.introduction-info .polygon.type-2,
 	.blocks.introduction-info .polygon.type-3,
 	.blocks.introduction-info .polygon.type-4,
@@ -21,6 +22,8 @@
 		margin-top: 0px;
 		display: none;
 	}
+=======
+>>>>>>> master
 	.blocks.all-work-info .middle-space {
 		margin: 20px auto;
 	}
@@ -284,6 +287,7 @@
 	.blocks.first-intro-info .mobile.social-link-wrapper {
 		padding-top: 20px;
 		padding-bottom: 20px;
+<<<<<<< HEAD
 	}
 	.foot-int .bars.top {
 		height: 3px;
@@ -292,6 +296,16 @@
 	.foot-int .bars.bottom {
 		height: 3px;
 	}
+=======
+	}
+	.foot-int .bars.top {
+		height: 3px;
+		width: 18px;
+	}
+	.foot-int .bars.bottom {
+		height: 3px;
+	}
+>>>>>>> master
 	.foot-int .bars.left {
 		width: 3px;
 		height: 18px;
@@ -448,7 +462,11 @@
 	}
 	.blocks.last-intro-info .footer-polygon {
 		position: static;
+<<<<<<< HEAD
 		background-size: 30px auto;
+=======
+		background-size: 22px 37px;
+>>>>>>> master
 		padding: 40px 55px;
 		opacity: 0.4;
    }
