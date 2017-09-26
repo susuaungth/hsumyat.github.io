@@ -1,14 +1,28 @@
 /*For mobile size*/
-@media (min-width: 350px) and (max-width: 480px) {
-	.foot-int .wrapper .red,
-	.foot-int .wrapper .white {
-		font-size: 25px;
-	}
-}
 @media only screen and (max-width: 800px) {
 	.blocks.first-intro-info .first-detail-intro {
 		float: none;
 		width: 100%;
+	}
+	.blocks.introduction-info .polygon.type-2,
+	.blocks.introduction-info .polygon.type-3,
+	.blocks.introduction-info .polygon.type-4,
+	.blocks.introduction-info .polygon.type-5,
+	.blocks.all-work-info .polygon.type-8,
+	.blocks.all-work-info .polygon.type-9,
+	.blocks.all-work-info .polygon.type-10,
+	.blocks.all-work-info .polygon.type-11,
+	.blocks.all-work-info .polygon.type-12,
+	.blocks.all-work-info .polygon.type-13
+	{
+		opacity: 0;
+	}
+	.blocks.all-work-info .polygon.type-7 {
+		margin-top: 0px;
+		display: none;
+	}
+	.blocks.all-work-info .middle-space {
+		margin: 20px auto;
 	}
 	.blocks.first-intro-info .full-name {
 		width: 100%;
@@ -26,7 +40,7 @@
 	}
 	.mobile.social-link-wrapper .facebook-link.links svg,
 	.blocks.last-intro-info .social-link-wrapper .facebook-link.links svg {
-		width: 18px!important;
+		width: 16px!important;
 	}
 	.blocks.first-intro-info .mobile.social-link-wrapper {
 		width: 50%;
@@ -37,12 +51,12 @@
 	}
 	.work.odd .work-place {
 		font-size: 14px;
-		margin-left: 5px;
+		text-align: center;
 	}
 	.work.even .work-place {
 		margin-bottom: 20px;
 		font-size: 14px;
-		margin-right: 5px;
+		text-align: center;
 	}
 	.work-place a {
 		font-size: 14px;
@@ -110,17 +124,23 @@
 	.blocks.first-intro-info .facebook-link,
 	.blocks.first-intro-info .twitter-link,
 	.blocks.first-intro-info .instagram-link,
+	{
+		width: 23%;
+		float: left;
+		display: inline-block;
+		margin: 18px auto;
+	}
 	.blocks.last-intro-info .github-link,
 	.blocks.last-intro-info .facebook-link,
 	.blocks.last-intro-info .twitter-link,
 	.blocks.last-intro-info .instagram-link
 	{
-		width: 23%;
-		float: left;
-		display: table-cell;
-		vertical-align: middle;
-		margin: 18px auto;
-		padding-left: 20px;
+    display: inline-flex;
+    margin: 18px auto;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: static;
 	}
 	.blocks.first-intro-info .phone-number,
 	.blocks.first-intro-info .gmail-address {
@@ -179,9 +199,16 @@
 	.blocks.all-work-info .header-text {
 		font-size: 30px;
 		padding: 0;
+		padding-bottom: 18px!important;
+	}
+	.blocks.introduction-info .focus-text-wrap {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 0px;
 	}
 	.blocks.all-work-info .polygon.type-8 {
-		top: -35%;
+		top: -39%;
 		margin-top: 0px;
 	}
 	.blocks.all-work-info .mini-red-block {
@@ -195,8 +222,13 @@
 		margin-top: 44px;
 		margin-right: 10px;
 	}
+	.copy-resume .mini-yellow-block a {
+		padding: 10px;
+		box-shadow: 5px 5px 0 #FF5858;
+	}
 	.blocks.all-work-info .development-logo {
-		width: 96%;
+		width: 360px;
+		max-width: 360px;
 		display: table;
 		margin: 0 auto;
 		position: static;
@@ -218,20 +250,63 @@
 	.blocks.all-work-info .body-text {
 		text-align: center;
 	}
+	.foot-int-wrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    padding-left: 30px;
+    padding-right: 30px;
+	}
 	.foot-int {
-		top: -65px;
+    top: -56px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 200px;
+    max-width: 200px;
 	}
 	.foot-int .wrapper .red {
-		font-size: 21px;
+		font-size: 25px;
 		text-shadow: 4px 4px 0 rgb(253, 223, 89);
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	.foot-int .wrapper .white {
-		font-size: 21px;
+		font-size: 25px;
 		text-shadow: 4px 4px 0 rgb(255, 88, 88);
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.blocks.first-intro-info .social-link-wrapper .links {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.blocks.first-intro-info .mobile.social-link-wrapper {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.foot-int .bars.top {
+		height: 3px;
+		width: 18px;
+	}
+	.foot-int .bars.bottom {
+		height: 3px;
+	}
+	.foot-int .bars.left {
+		width: 3px;
+		height: 18px;
+	}
+	.foot-int .bars.right {
+		width: 3px;
 	}
 	.foot-int .wrapper {
-		padding: 12px 14px;
-	}
+    border: 3px solid #FF5858;
+    padding: 4px 9px;
+    padding-left: 11px;
+    padding-right: 18px;
+    padding-top: 4px;
+    padding-bottom: 1px;
+  }
 	.blocks.all-work-info .even .development-about {
 		margin-right: 0px;
 		width: 100%;
@@ -239,6 +314,7 @@
 	}
 	.sub-header {
 		font-size: 20px;
+		text-shadow: 3px 3px 0 rgb(253, 223, 89);
 	}
 	.body-text {
 		font-size: 15px;
@@ -290,7 +366,7 @@
     margin: 0 auto;
     display: table;
     padding: 20px 0;
-    width: 44%;
+    width: 35%;
     margin-top: 30px;
 	}
 	.copy-resume {
@@ -326,31 +402,33 @@
 		left: 13px;
 	}
 	.blocks.last-intro-info .title {
-		font-size: 26px;
-		margin-top: 0px;
-		text-align: center;
-		margin-bottom: 0px;
+		display: none;
 	}
 	.blocks.last-intro-info .intro-float .down-arrow,
 	.blocks.last-intro-info .message-float .down-arrow {
-		display: table;
-		margin: 0 auto;
-		width: 100%;
-		background-position: center center;
-		background-size: 20px auto;
+		display: none;
 	}
 	.blocks.last-intro-info .intro-float {
 		float: none;
 		width: 100%;
-		margin-top: 100px;
+		margin-top: 125px;
 	}
 	.blocks.last-intro-info .message-float {
 		margin-right: 10px;
-		margin-top: 25px;
+		margin-top: 0px;
 	}
-	.blocks.last-intro-info .phone-number, .blocks.last-intro-info .gmail-address,
+	.blocks.last-intro-info .phone-number {
+		font-size: 20px;
+		padding: 5px 0px;
+	}
 	.blocks.last-intro-info .phone-number a {
-		font-size: 16px;
+		font-size: 20px;
+		text-align: center !important;
+		margin: 0;
+	}
+	.blocks.last-intro-info .gmail-address
+	{
+		font-size: 14px;
 		text-align: center!important;
 		padding: 0;
 		margin: 0;
@@ -360,28 +438,34 @@
 		width: 100%;
 	}
 	.blocks.last-intro-info .social-link-wrapper {
-		position: static;
-		display: table;
-		table-layout: fixed;
-		overflow: hidden;
-		width: 60%;
-		margin: 0 auto;
+    position: static;
+    display: flex;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: row;
+    direction: ltr;
 	}
 	.blocks.last-intro-info .footer-polygon {
-    display: none;
-	}
+		position: static;
+		background-size: 30px auto;
+		padding: 40px 55px;
+		opacity: 0.4;
+   }
 	.blocks.last-intro-info .icon-code {
 		left: 3%;
 		display: none;
 	}
 	.blocks.all-work-info .polygon.type-13 {
-		bottom: 10%;
+		bottom: 17%;
 	}
 	.copy-resume .mini-yellow-block {
 		padding: 10px;
 	}
 	.blocks.all-work-info .odd .mini-red-block {
 		width: 30%;
+		display: table;
+		margin: 0 auto;
 	}
 	.blocks.first-intro-info .full-name a,
 	.about-me a,
@@ -406,20 +490,22 @@
 	}
 	.blocks.introduction-info .header-text,
 	.header-text {
-		text-shadow: 6px 6px 0 rgb(253, 223, 89);
+		text-shadow: 4px 4px 0 rgb(253, 223, 89);
 	}
 	.copy-resume {
 		text-shadow: 2px 2px 0 rgb(255, 88, 88);
 	}
 	.blocks.all-work-info .even .mini-red-block {
 		width: 35%;
-		margin-right: 18px;
+		display: table;
+		margin: 20px auto;
+		float: none;
 	}
 	.github-link a,
 	.instagram-link a,
 	.twitter-link a {
 		background-position: center center;
-		background-size: 25px auto;
+		background-size: 20px auto;
 	}
 	.facebook-link a {
 		background-size: 18px auto;
@@ -437,6 +523,9 @@
 	.gmail-address a
 	{
 		text-shadow: 2px 2px 0 rgb(255, 88, 88);
+	}
+	.blocks.last-intro-info .footer-wave-image {
+		display: none;
 	}
 	.mobile.social-link-wrapper {
 		display: none !important;
@@ -689,6 +778,7 @@
 		margin: 0 auto;
 		width: 100%;
 		background-position: center center;
+		background-size: 20px auto
 	}
 	.blocks.last-intro-info .social-link-wrapper {
 		width: 60%;
@@ -718,7 +808,7 @@
 		display: table;
 		table-layout: fixed;
 		overflow: hidden;
-		width: 60%;
+		width: 45%;
 		margin: 0 auto;
 	}
 	.blocks.last-intro-info .footer-polygon {
