@@ -462,11 +462,7 @@
 	}
 	.blocks.last-intro-info .footer-polygon {
 		position: static;
-<<<<<<< HEAD
-		background-size: 30px auto;
-=======
 		background-size: 22px 37px;
->>>>>>> master
 		padding: 40px 55px;
 		opacity: 0.4;
    }
