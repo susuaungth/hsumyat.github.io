@@ -19,7 +19,7 @@
 	}
 	.blocks.all-work-info .polygon.type-7 {
 		margin-top: 0px;
-		display: none;
+		margin-bottom: 18px;
 	}
 	.blocks.all-work-info .middle-space {
 		margin: 20px auto;
@@ -174,9 +174,12 @@
 	}
 	.blocks.introduction-info .header-text {
 		font-size: 40px;
+		margin-top: 35px;
+		margin-bottom: 38px;
 	}
 	.blocks.introduction-info .stroke-wrapper {
 		padding-left: 0px;
+		margin-bottom: 38px;
 	}
 	.blocks.introduction-info .focus-text-wrap {
 		font-size: 23px;
@@ -200,6 +203,7 @@
 		font-size: 30px;
 		padding: 0;
 		padding-bottom: 18px!important;
+		margin: 10px 0px;
 	}
 	.blocks.introduction-info .focus-text-wrap {
 		margin-left: auto;
