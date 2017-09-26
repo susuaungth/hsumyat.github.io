@@ -498,7 +498,6 @@
     top: 60%;
     z-index: 10;
     opacity: 0.4;
-    transition-duration: 10s;
   }
   .blocks.introduction-info .polygon.type-5 {
     background-image: url(../images/s-polygon4.svg);
@@ -625,7 +624,7 @@
   }
   .blocks.all-work-info .even .development-logo {
     right: 0;
-    top: 16%;
+    top: 9%;
   }
   .blocks.all-work-info .development-logo {
     background-color: #fef5cc;

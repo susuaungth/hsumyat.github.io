@@ -19,10 +19,10 @@
 	}
 	.blocks.all-work-info .polygon.type-7 {
 		margin-top: 0px;
-		margin-bottom: 18px;
+		margin-bottom: 30px;
 	}
 	.blocks.all-work-info .middle-space {
-		margin: 20px auto;
+		margin: 30px auto;
 	}
 	.blocks.first-intro-info .full-name {
 		width: 100%;
@@ -188,14 +188,6 @@
 	#first-upper-section {
 		height: 100%;
 	}
-	.blocks.introduction-info .polygon.type-5 {
-		right: 1%;
-		top: 59%;
-	}
-	.blocks.introduction-info .polygon.type-4 {
-		left: 8%;
-		top: 65%;
-	}
 	.blocks.all-work-info {
 		margin: 0;
 	}
@@ -203,7 +195,10 @@
 		font-size: 30px;
 		padding: 0;
 		padding-bottom: 18px!important;
-		margin: 10px 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 30px;
+		margin-bottom: 10px;
 	}
 	.blocks.introduction-info .focus-text-wrap {
 		margin-left: auto;
@@ -358,12 +353,14 @@
 		display: none;
 	}
 	.blocks.all-work-info .middle-space.hover {
-		height: 233px!important;
+		height: 250px!important;
 	}
 	.blocks.all-work-info .polygon.type-14 {
 		right: 31%;
 		background-size: 80px auto;
-		top: -35%;
+		top: -14%;
+		padding: 65px 77px;
+		margin-top: 28px;
 	}
 	.blocks.last-intro-info .first-border {
 		width: 300px;
@@ -378,7 +375,7 @@
     display: table;
     padding: 20px 0;
     width: 35%;
-    margin-top: 30px;
+    margin-top: 80px;
 	}
 	.copy-resume {
 		font-size: 16px;
