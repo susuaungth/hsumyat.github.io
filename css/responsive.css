@@ -519,6 +519,9 @@
 		background-size: 18px auto;
 		background-position: center center;
 	}
+	.blocks.last-intro-info .footer-wave-image {
+		display: block;
+	}
 }
 
 /*For Tablet Size*/

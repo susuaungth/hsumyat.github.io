@@ -97,6 +97,7 @@
     z-index: 10;
     padding-top: 10px;
     width: 100%;
+    display: none;
   }
   .blocks.first-intro-info {
     background-color: #FDDF59;
