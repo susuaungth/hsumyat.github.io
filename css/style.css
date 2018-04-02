@@ -684,6 +684,12 @@
     top: 27%;
     z-index: 10;
   }
+  .blocks.all-work-info .fun2g .image img {
+    max-width: 65%;
+  }
+  .blocks.all-work-info .vitalpharma .image img {
+    max-width: 60%;
+  }
   .sub-header {
     color: #ff5858;
     font-size: 40px;
